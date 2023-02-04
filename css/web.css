@@ -123,6 +123,25 @@ body{
     border-radius: 30px;
 }
 
+.tercera a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.tercera a:hover{
+    text-decoration: none;
+    background-color: #FD84FE;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 6px white;
+}
+
 .tercera .seccion1{
     text-align: center;
 }
@@ -141,6 +160,99 @@ body{
     padding: 10px;
 }
 
+.cuarta {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-image: url(../img/fondojc5.gif);
+    background-size: cover;
+    color: white;
+}
+
+.cuarta img{
+    width: 350px;
+    box-shadow: 0px 0px 10px 6px white;
+    border-radius: 30px;
+}
+
+.cuarta a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cuarta a:hover{
+    text-decoration: none;
+    background-color: #FD84FE;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 6px white;
+}
+
+.quinta{
+    height: 100vh;
+    background-image: url(../img/fondojc6.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.quinta img{
+    width: 350px;
+    filter: drop-shadow(0 -3px 19px rgba(242, 226, 221, 0.7));
+}
+
+.quinta .text{
+    color: white;
+    background: rgba(225, 225, 225, -0.2);
+    backdrop-filter: blur(37px);
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.planes{
+    padding: 10px;
+    background-image: url(../img/fondojc8.png);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planes .plan{
+    margin: 10px;
+    padding: 10px;
+    background: rgba(225, 225, 225, -0.2);
+    backdrop-filter: blur(37px);
+    position: relative;
+    overflow: hidden;
+}
+
+.planes .recomendado{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(43px,48px) rotate(45deg);
+    font-size: 15px;
+    background: white;
+    color: black;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
 @keyframes lineacreciente {
     from {
         width: 2px;
